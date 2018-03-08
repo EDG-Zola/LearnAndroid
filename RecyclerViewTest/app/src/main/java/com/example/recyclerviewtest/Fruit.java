@@ -1,4 +1,4 @@
-package com.example.listviewtest;
+package com.example.recyclerviewtest;
 
 /**
  * Created by Administrator on 2018\3\7 0007.
