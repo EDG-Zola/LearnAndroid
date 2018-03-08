@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.List;
 
@@ -16,10 +17,12 @@ import java.util.List;
 public class FruitAdapter extends RecyclerView.Adapter<FruitAdapter.ViewHolder> {
     private List<Fruit> mFruitList;
     static public class ViewHolder extends RecyclerView.ViewHolder{
+        View fruitView;
         ImageView fruitImage;
         TextView fruitName;
         public ViewHolder(View view) {
             super(view);
+            fruitView = view;
             fruitImage = (ImageView) view.findViewById(R.id.fruit_image);
             fruitName = (TextView) view.findViewById(R.id.fruit_name);
         }
@@ -33,8 +36,30 @@ public class FruitAdapter extends RecyclerView.Adapter<FruitAdapter.ViewHolder> 
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
 //        将fruit_item布局加载进来
         View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.fruit_item, parent, false);
-//        创建一个ViewHolder实例，并将加载的布局传入到构造函数中
-        ViewHolder holder = new ViewHolder(view);
+        //        创建一个ViewHolder实例，并将加载的布局传入到构造函数中
+       final ViewHolder holder = new ViewHolder(view);
+        //注册最外层布局fruitView的点击事件
+        holder.fruitView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                int position = holder.getAdapterPosition();
+                Fruit fruit = mFruitList.get(position);
+                Toast.makeText(v.getContext(), "You clicked view" + fruit.getName(),
+                        Toast.LENGTH_SHORT).show();
+            }
+        });
+        //注册水果图片fruitImage的点击事件
+        holder.fruitImage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                int position = holder.getAdapterPosition();
+                Fruit fruit = mFruitList.get(position);
+                Toast.makeText(v.getContext(), "You clicked view" + fruit.getName(),
+                        Toast.LENGTH_SHORT).show();
+            }
+        });
+
+
         return holder;
     }
 
