@@ -10,8 +10,8 @@ public class Msg {
     private String content;
     private int type;
     public Msg(String content, int type){
-        content = this.content;
-        type = this.type;
+        this.content = content;
+        this.type = type;
     }
     public String getContent(){
         return content;
