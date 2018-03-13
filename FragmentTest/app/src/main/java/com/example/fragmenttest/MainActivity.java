@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentTransaction transaction = fragmentManager.beginTransaction();
         transaction.replace(R.id.right_layout, fragment);
+        transaction.addToBackStack(null);//在碎片中模拟返回栈
         transaction.commit();
     }
 }
