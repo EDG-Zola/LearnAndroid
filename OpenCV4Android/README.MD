@@ -5,3 +5,5 @@ Win7+Android Studio2.2 + OpenCV3.4.1-android-sdk
 [原图](https://github.com/EDG-Zola/LearnAndroid/tree/master/OpenCV4Android/OpencvTest/result/src.png)
 
 [灰度化效果图](https://github.com/EDG-Zola/LearnAndroid/tree/master/OpenCV4Android/OpencvTest/result/result.png)
+### No.2 OpencvCameta  --  Canny边缘检测
+[灰度化效果图](https://github.com/EDG-Zola/LearnAndroid/tree/master/OpenCV4Android/OpencvCamera/result/canny.png)
