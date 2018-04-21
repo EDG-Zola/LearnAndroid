@@ -10,3 +10,7 @@ Win7+Android Studio2.2 + OpenCV3.4.1-android-sdk
 
 ### No.3 NDKTest  --  使用NDK来调用JNI
 [测试效果图](https://github.com/EDG-Zola/LearnAndroid/tree/master/OpenCV4Android/NDKTest/result/result.png)
+
+### No.4 NDKOpencvTest1  --  使用NDK来调用OpenCV的cvtColor函数进行灰度转换
+[测试效果图](https://github.com/EDG-Zola/LearnAndroid/tree/master/OpenCV4Android/NDKOpencvTest1/result/result.png)
+
