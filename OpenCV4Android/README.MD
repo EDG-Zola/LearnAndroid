@@ -15,5 +15,5 @@ Win7+Android Studio2.2 + OpenCV3.4.1-android-sdk
 [测试效果图](https://github.com/EDG-Zola/LearnAndroid/tree/master/OpenCV4Android/NDKOpencvTest1/result/result.png)
 
 ### No.5 OpencvFaceDetection  --  利用NDK+OpenCV官方demo进行人脸检测
-[人脸检测效果图](https://github.com/EDG-Zola/LearnAndroid/tree/master/OpenCV4Android/OpencvFaceDetection/result/result_image.png)
-[人脸检测视频](https://github.com/EDG-Zola/LearnAndroid/tree/master/OpenCV4Android/OpencvFaceDetection/result/result_vedio.mp4)
+[单个人脸检测效果图](https://github.com/EDG-Zola/LearnAndroid/tree/master/OpenCV4Android/OpencvFaceDetection/result/result_image.png)
+[多个人脸检测效果图](https://github.com/EDG-Zola/LearnAndroid/tree/master/OpenCV4Android/OpencvFaceDetection/result/many_faces.png)
