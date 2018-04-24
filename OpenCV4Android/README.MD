@@ -17,3 +17,7 @@ Win7+Android Studio2.2 + OpenCV3.4.1-android-sdk
 ### No.5 OpencvFaceDetection  --  利用NDK+OpenCV官方demo进行人脸检测
 [单个人脸检测效果图](https://github.com/EDG-Zola/LearnAndroid/tree/master/OpenCV4Android/OpencvFaceDetection/result/result_image.png)
 [多个人脸检测效果图](https://github.com/EDG-Zola/LearnAndroid/tree/master/OpenCV4Android/OpencvFaceDetection/result/many_faces.png)
+
+### No.5 OpencvHumanDetection1  --  对人脸检测稍作修改后的行人检测
+[行人检测效果图](https://github.com/EDG-Zola/LearnAndroid/tree/master/OpenCV4Android/OpencvHumanDetection1/result/human_detect.png)
+[行人检测效果图](https://github.com/EDG-Zola/LearnAndroid/tree/master/OpenCV4Android/OpencvHumanDetection1/result/human_detect1.png)
