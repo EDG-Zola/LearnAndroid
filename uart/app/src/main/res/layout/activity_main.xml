@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/b"
+    tools:context="${relativePackage}.${activityClass}"
+    >
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:gravity="center_horizontal"
+       android:text="设备管理器"
+       android:textStyle="bold"
+       android:textSize="22dp"
+       android:id="@+id/textView"
+       />
+
+   <Button
+       android:id="@+id/scan_dev_btn"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_alignParentEnd="true"
+       android:textStyle="bold"
+       android:textSize="22dp"
+       android:layout_below="@+id/textView"
+       android:layout_marginEnd="11dp"
+       android:text="扫描设备" />
+
+   <ListView
+       android:id="@+id/lv"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:gravity="center_horizontal"
+       android:layout_alignEnd="@+id/scan_dev_btn"
+       android:layout_below="@+id/scan_dev_btn"></ListView>
+
+</RelativeLayout>
