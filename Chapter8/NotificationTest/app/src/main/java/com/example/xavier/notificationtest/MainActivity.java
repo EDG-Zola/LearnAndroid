@@ -46,6 +46,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         .setSound(Uri.fromFile(new File("system/media/audio/ringtones/Luna.ogg")))//设置通知消息来之后播放文件内的内置音频
                         .setVibrate(new long[]{0, 1000, 1000, 1000, 1000})//设置震动，静止0s,震动1s，静止1s，震动1s
                         .setLights(Color.GREEN, 1000, 1000)//设置LED为绿色，亮起的时间为1s，暗区的时间为1s
+                        .setStyle(new NotificationCompat.BigPictureStyle()
+                                .bigPicture(BitmapFactory.decodeResource(getResources(),R.drawable.sunset)))//在通知栏中添加大图片
                         .build();
                 manager.notify(1,notification);//通知的id为1
                 break;
