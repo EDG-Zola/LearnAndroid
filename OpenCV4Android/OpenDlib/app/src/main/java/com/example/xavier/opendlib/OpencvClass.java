@@ -1,5 +1,7 @@
 package com.example.xavier.opendlib;
 
+import android.util.Log;
+
 /**
  * Created by Administrator on 2018\5\31 0031.
  */
